@@ -6,3 +6,6 @@ constructor(statusCode,data,message="Success"){
     this.sucess=statusCode < 400
 }
 }
+
+
+export {ApiResponse}
